@@ -1,0 +1,802 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledRectangle1 = styled.div`
+  width: 1440px;
+  height: 51px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E8C2E4;
+`;
+
+const StyledRectangle2 = styled.div`
+  width: 1440px;
+  height: 167px;
+  left: 0px;
+  top: 51px;
+  position: absolute;
+  background: linear-gradient(180deg, #A0645F 70%, #3A2422 100%);
+`;
+
+const StyledRectangle3 = styled.div`
+  width: 1440px;
+  height: 47px;
+  left: 0px;
+  top: 218px;
+  position: absolute;
+  background: linear-gradient(270deg, #1EAA80 69%, #8318B0 100%);
+`;
+
+const StyledChomngbnnvigiangianhngcachngtispan = styled.span`
+  color: black;
+  font-size: 20px;
+  font-family: Lugrasimo;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage1 = styled.img`
+  width: 899px;
+  height: 97px;
+  left: 394px;
+  top: 69px;
+  position: absolute;
+`;
+
+const StyledImage2 = styled.img`
+  width: 866px;
+  height: 67px;
+  left: 245px;
+  top: 68px;
+  position: absolute;
+  border-radius: 100px;
+`;
+
+const StyledImage3 = styled.img`
+  width: 700px;
+  height: 58px;
+  left: 310px;
+  top: 105px;
+  position: absolute;
+  border-radius: 5px;
+  border: 3px #9D3C3C solid;
+`;
+
+const StyledEllipse11 = styled.div`
+  width: 150px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle94 = styled.div`
+  width: 200px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 100px;
+  border: 1px black solid;
+`;
+
+const StyledEllipse12 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle95 = styled.div`
+  width: 206px;
+  height: 34px;
+  left: 85px;
+  top: 529px;
+  position: absolute;
+  border-radius: 20px;
+`;
+
+const StyledRectangle99 = styled.div`
+  width: 1440px;
+  height: 616px;
+  left: 0px;
+  top: 1596px;
+  position: absolute;
+  background: #0E0D0D;
+`;
+
+const StyledEllipse13 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 918px;
+  top: 2026px;
+  position: absolute;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse14 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 1094px;
+  top: 2026px;
+  position: absolute;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse15 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 1244px;
+  top: 2026px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledChnhnhtrctipcashopspan = styled.span`
+  color: white;
+  font-size: 48px;
+  font-family: Koulen;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledS12ng12nguynvntritpvinhqun8nguyndutphcmqunngatphnis32ng8nguyntrinngspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledNgnhpngkqunlnhngthngtincnhncuhithnggpimtkhukhiunitrhngspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledHoline03046377370263733937emailkingofflowergmailcomspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage4 = styled.img`
+  width: 184px;
+  height: 69px;
+  left: 58px;
+  top: 1966px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledImage5 = styled.img`
+  width: 193px;
+  height: 69px;
+  left: 299px;
+  top: 1971px;
+  position: absolute;
+  border-radius: 20px;
+`;
+
+const StyledAppkingofflowerspan = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage6 = styled.img`
+  width: 227px;
+  height: 70px;
+  left: 58px;
+  top: 2097px;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledImage7 = styled.img`
+  width: 228px;
+  height: 71px;
+  left: 309px;
+  top: 2097px;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledTikhondchvspan = styled.span`
+  color: white;
+  font-size: 48px;
+  font-family: Koulen;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle100 = styled.div`
+  width: 556px;
+  height: 43px;
+  left: 828px;
+  top: 1961px;
+  position: absolute;
+  background: #807858;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledCcnntngcachngtispan = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan01 = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan02 = styled.span`
+  color: #2926EB;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan03 = styled.span`
+  color: #0FAF1C;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan04 = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan05 = styled.span`
+  color: #C70D0D;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledEllipse16 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 464px;
+  top: 236px;
+  position: absolute;
+  background: #101010;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse17 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 850px;
+  top: 236px;
+  position: absolute;
+  background: black;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse18 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 1248px;
+  top: 236px;
+  position: absolute;
+  background: black;
+  border-radius: 9999px;
+`;
+
+const StyledRectangle253 = styled.div`
+  width: 1440px;
+  height: 10px;
+  left: 0px;
+  top: 1586px;
+  position: absolute;
+  background: #874214;
+`;
+
+const StyledRectangle269 = styled.div`
+  width: 800px;
+  height: 872px;
+  left: 354px;
+  top: 553px;
+  position: absolute;
+  background: #FCFCFC;
+  border-radius: 40px;
+  border: 3px black solid;
+`;
+
+const StyledNhpthngtincabnsdngdchvcakingofflowerspan01 = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Krona One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledNhpthngtincabnsdngdchvcakingofflowerspan02 = styled.span`
+  color: #DDA2EA;
+  font-size: 32px;
+  font-family: Krona One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledTotikhonspan = styled.span`
+  color: #EA4848;
+  font-size: 48px;
+  font-family: Krona One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle270 = styled.div`
+  width: 564px;
+  height: 82px;
+  left: 473px;
+  top: 906px;
+  position: absolute;
+  background: #F9EDBD;
+  border-radius: 30px;
+  border: 2px black solid;
+`;
+
+const StyledRectangle271 = styled.div`
+  width: 564px;
+  height: 82px;
+  left: 473px;
+  top: 1002px;
+  position: absolute;
+  background: #F9EDBD;
+  border-radius: 30px;
+  border: 2px black solid;
+`;
+
+const StyledHkhngbtbucspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledTnspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle272 = styled.div`
+  width: 276px;
+  height: 64px;
+  left: 631px;
+  top: 1315px;
+  position: absolute;
+  background: linear-gradient(180deg, #1C9C76 0%, #0A3629 100%);
+  border-radius: 15px;
+  border: 3px black solid;
+`;
+
+const StyledTotikhon01span = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle273 = styled.div`
+  width: 261px;
+  height: 57px;
+  left: 476px;
+  top: 1388px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledRectangle274 = styled.div`
+  width: 261px;
+  height: 57px;
+  left: 776px;
+  top: 1382px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledEllipse19 = styled.div`
+  width: 50px;
+  height: 50px;
+  left: 730px;
+  top: 602px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle279 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle280 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle281 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle282 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle283 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle284 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle286 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledTrangchspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledSnphmspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledThcvtspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGihngspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGiithiuspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledSkinspan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledUispan = styled.span`
+  color: white;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle275 = styled.div`
+  width: 564px;
+  height: 82px;
+  left: 473px;
+  top: 1098px;
+  position: absolute;
+  background: #F9EDBD;
+  border-radius: 30px;
+  border: 2px black solid;
+`;
+
+const StyledEmailspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle276 = styled.div`
+  width: 564px;
+  height: 82px;
+  left: 473px;
+  top: 1200px;
+  position: absolute;
+  background: #F9EDBD;
+  border-radius: 30px;
+  border: 2px black solid;
+`;
+
+const StyledMtkhuspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledFrame84 = styled.div`
+  width: 150px;
+  height: 150px;
+  left: 45px;
+  top: 58px;
+  position: absolute;
+`;
+
+const StyledFrame92 = styled.div`
+  width: 200px;
+  height: 40px;
+  left: 1039px;
+  top: 120px;
+  position: absolute;
+`;
+
+const StyledFrame93 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledFrame85 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 217px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame86 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 389px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame87 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 561px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame88 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 733px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame89 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 905px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame90 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 1077px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame91 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 1249px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame107 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 1268px;
+  top: 103px;
+  position: absolute;
+`;
+
+const StyledDesktop9 = styled.div`
+  width: 1440px;
+  height: 2212px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://placehold.co/1440x2212);
+`;
+
+export const Desktop9 = () => {
+  return (
+    <StyledDesktop9>
+      <StyledRectangle1 />
+      <StyledRectangle2 />
+      <StyledRectangle3 />
+      <StyledCHOMNGBNNVIGIANGIANHNGCACHNGTI>CHÀO MỪNG BẠN ĐẾN VỚI GIAN GIAN HÀNG CỦA CHÚNG TÔI</StyledCHOMNGBNNVIGIANGIANHNGCACHNGTI>
+      <StyledImage1 />
+      <StyledImage2 />
+      <StyledImage3  src="https://placehold.co/700x58"/>
+      <StyledFrame84>
+        <StyledEllipse11  src="https://placehold.co/150x150"/>
+      </StyledFrame84>
+      <StyledFrame92>
+        <StyledRectangle94  src="https://placehold.co/200x40"/>
+      </StyledFrame92>
+      <StyledFrame107>
+        <StyledFrame93>
+          <StyledEllipse12  src="https://placehold.co/60x60"/>
+        </StyledFrame93>
+      </StyledFrame107>
+      <StyledRectangle95 />
+      <StyledRectangle99 />
+      <StyledEllipse13  src="https://placehold.co/80x80"/>
+      <StyledEllipse14  src="https://placehold.co/80x80"/>
+      <StyledEllipse15  src="https://placehold.co/80x80"/>
+      <StyledChnhnhtrctipcashop>Chí nhánh trực tiếp của shop</StyledChnhnhtrctipcashop>
+      <StyledS12ng12NguynVnTriTPVinhQun8NguynDuTPHCMQunngaTPHNiS32ng8NguynTriNng>Số 12,ngõ 12,Nguyễn Văn Trỗi,TP Vinh.<br/>Quận 8,Nguyễn Du,TP HCM.<br/>Quận Đống Đa,TP Hà Nội.<br/>Số 32,ngõ 8,Nguyễn Trãi,Đà Nẵng.</StyledS12ng12NguynVnTriTPVinhQun8NguynDuTPHCMQunngaTPHNiS32ng8NguynTriNng>
+      <StyledNgnhpngkQunlnhngThngtincnhnCuhithnggpimtkhuKhiunitrhng>Đăng nhập & Đăng ký.<br/>Quản lý đơn hàng.<br/>Thông tin cá nhân.<br/>Câu hỏi thường gặp.<br/>Đổi mật khẩu.<br/>Khiếu nại trả hàng.</StyledNgnhpngkQunlnhngThngtincnhnCuhithnggpimtkhuKhiunitrhng>
+      <StyledHoline03046377370263733937Emailkingofflowergmailcom>Holine:0304637737 & 0263733937.<br/>Email:kingofflower@gmail.com.</StyledHoline03046377370263733937Emailkingofflowergmailcom>
+      <StyledImage4  src="https://placehold.co/184x69"/>
+      <StyledImage5  src="https://placehold.co/193x69"/>
+      <StyledAPPKINGOFFLOWER>APP KING OF FLOWER</StyledAPPKINGOFFLOWER>
+      <StyledImage6  src="https://placehold.co/227x70"/>
+      <StyledImage7  src="https://placehold.co/228x71"/>
+      <StyledTikhondchv>Tài khoản & dịch vụ</StyledTikhondchv>
+      <StyledRectangle100 />
+      <StyledCcnntngcachngti>các nền tảng của chúng tôi</StyledCcnntngcachngti>
+      <StyledKhuvcMinBcMinTrungMinNam><StyledKhuvcminbcmintrungminnamspan01>Khu vực:                           </StyledKhuvcminbcmintrungminnamspan01><StyledKhuvcminbcmintrungminnamspan02>Miền Bắc                                        </StyledKhuvcminbcmintrungminnamspan02><StyledKhuvcminbcmintrungminnamspan03>Miền Trung</StyledKhuvcminbcmintrungminnamspan03><StyledKhuvcminbcmintrungminnamspan04>                                   </StyledKhuvcminbcmintrungminnamspan04><StyledKhuvcminbcmintrungminnamspan05>Miền Nam</StyledKhuvcminbcmintrungminnamspan05></StyledKhuvcMinBcMinTrungMinNam>
+      <StyledEllipse16 />
+      <StyledEllipse17 />
+      <StyledEllipse18 />
+      <StyledRectangle253 />
+      <StyledRectangle269 />
+      <StyledNhpthngtincabnsdngdchvcaKingofflower><StyledNhpthngtincabnsdngdchvcakingofflowerspan01>Nhập thông tin của bạn để sử dụng dịch vụ của </StyledNhpthngtincabnsdngdchvcakingofflowerspan01><StyledNhpthngtincabnsdngdchvcakingofflowerspan02>King of flower </StyledNhpthngtincabnsdngdchvcakingofflowerspan02></StyledNhpthngtincabnsdngdchvcaKingofflower>
+      <StyledTotikhon>Tạo tài khoản</StyledTotikhon>
+      <StyledRectangle270 />
+      <StyledRectangle271 />
+      <StyledHKhngbtbuc>Họ(Không bắt buộc)</StyledHKhngbtbuc>
+      <StyledTn>Tên</StyledTn>
+      <StyledRectangle272 />
+      <StyledTotikhon01>Tạo tài khoản</StyledTotikhon01>
+      <StyledRectangle273 />
+      <StyledRectangle274 />
+      <StyledEllipse19  src="https://placehold.co/50x50"/>
+      <StyledFrame85>
+        <StyledRectangle279 />
+      </StyledFrame85>
+      <StyledFrame86>
+        <StyledRectangle280 />
+      </StyledFrame86>
+      <StyledFrame87>
+        <StyledRectangle281 />
+      </StyledFrame87>
+      <StyledFrame88>
+        <StyledRectangle282 />
+      </StyledFrame88>
+      <StyledFrame89>
+        <StyledRectangle283 />
+      </StyledFrame89>
+      <StyledFrame90>
+        <StyledRectangle284 />
+      </StyledFrame90>
+      <StyledFrame91>
+        <StyledRectangle286 />
+      </StyledFrame91>
+      <StyledTrangch>Trang chủ</StyledTrangch>
+      <StyledSnphm>Sản phẩm</StyledSnphm>
+      <StyledThcvt>Thực vật</StyledThcvt>
+      <StyledGiHng>Giỏ Hàng</StyledGiHng>
+      <StyledGiithiu>Giới thiệu</StyledGiithiu>
+      <StyledSkin>Sự kiện</StyledSkin>
+      <StyledUi>Ưu đãi</StyledUi>
+      <StyledRectangle275 />
+      <StyledEmail>Email</StyledEmail>
+      <StyledRectangle276 />
+      <StyledMtkhu>Mật khẩu</StyledMtkhu>
+    </StyledDesktop9>
+  );
+};

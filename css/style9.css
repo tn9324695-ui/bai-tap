@@ -1,0 +1,1263 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledRectangle1 = styled.div`
+  width: 1440px;
+  height: 51px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E8C2E4;
+`;
+
+const StyledRectangle2 = styled.div`
+  width: 1440px;
+  height: 167px;
+  left: 0px;
+  top: 51px;
+  position: absolute;
+  background: linear-gradient(180deg, #A0645F 70%, #3A2422 100%);
+`;
+
+const StyledRectangle3 = styled.div`
+  width: 1440px;
+  height: 47px;
+  left: 0px;
+  top: 218px;
+  position: absolute;
+  background: linear-gradient(270deg, #1EAA80 69%, #8318B0 100%);
+`;
+
+const StyledChomngbnnvigiangianhngcachngtispan = styled.span`
+  color: black;
+  font-size: 20px;
+  font-family: Lugrasimo;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage1 = styled.img`
+  width: 899px;
+  height: 97px;
+  left: 394px;
+  top: 69px;
+  position: absolute;
+`;
+
+const StyledImage2 = styled.img`
+  width: 866px;
+  height: 67px;
+  left: 245px;
+  top: 68px;
+  position: absolute;
+  border-radius: 100px;
+`;
+
+const StyledImage3 = styled.img`
+  width: 700px;
+  height: 58px;
+  left: 310px;
+  top: 105px;
+  position: absolute;
+  border-radius: 5px;
+  border: 3px #9D3C3C solid;
+`;
+
+const StyledEllipse11 = styled.div`
+  width: 150px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle94 = styled.div`
+  width: 200px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 100px;
+  border: 1px black solid;
+`;
+
+const StyledEllipse12 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan01 = styled.span`
+  color: #F9EDBD;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan02 = styled.span`
+  color: #2926EB;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan03 = styled.span`
+  color: #0FAF1C;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan04 = styled.span`
+  color: #F9EDBD;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledKhuvcminbcmintrungminnamspan05 = styled.span`
+  color: #C70D0D;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledEllipse16 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 464px;
+  top: 236px;
+  position: absolute;
+  background: #101010;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse17 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 850px;
+  top: 236px;
+  position: absolute;
+  background: black;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse18 = styled.div`
+  width: 20px;
+  height: 20px;
+  left: 1248px;
+  top: 236px;
+  position: absolute;
+  background: black;
+  border-radius: 9999px;
+`;
+
+const StyledRectangle273 = styled.div`
+  width: 261px;
+  height: 57px;
+  left: 149px;
+  top: 1358px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledRectangle274 = styled.div`
+  width: 261px;
+  height: 57px;
+  left: -235px;
+  top: 1479px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledRectangle279 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle280 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle281 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle282 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle283 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle284 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle286 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #E69575;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledTrangchspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledSnphmspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledThcvtspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGihngspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGiithiuspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledSkinspan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledUispan = styled.span`
+  color: #F9EDBD;
+  font-size: 17px;
+  font-family: Lexend Zetta;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle289 = styled.div`
+  width: 714px;
+  height: 874px;
+  left: 19px;
+  top: 312px;
+  position: absolute;
+  border-radius: 20px;
+  border: 3px black solid;
+`;
+
+const StyledRectangle290 = styled.div`
+  width: 646px;
+  height: 867px;
+  left: 757px;
+  top: 319px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 20px;
+  border: 2px black solid;
+`;
+
+const StyledTnsnphmvnbnthngtinsnphmngungcvnbnkchthcsnphmmkhilngsnphmkggisnphmvnspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle291 = styled.div`
+  width: 331px;
+  height: 111px;
+  left: 19px;
+  top: 1209px;
+  position: absolute;
+  background: #B27353;
+  border-radius: 15px;
+  border: 2px black solid;
+`;
+
+const StyledThmvogihngspan = styled.span`
+  color: #F9EDBD;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle292 = styled.div`
+  width: 331px;
+  height: 111px;
+  left: 402px;
+  top: 1209px;
+  position: absolute;
+  background: #F13535;
+  border-radius: 15px;
+  border: 2px black solid;
+`;
+
+const StyledMuangayspan = styled.span`
+  color: #F9EDBD;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle294 = styled.div`
+  width: 260px;
+  height: 66px;
+  left: 19px;
+  top: 1343px;
+  position: absolute;
+  background: #35B7C0;
+  border-radius: 10px;
+  border: 2px black solid;
+`;
+
+const StyledRectangle295 = styled.div`
+  width: 260px;
+  height: 66px;
+  left: 315px;
+  top: 1343px;
+  position: absolute;
+  background: #AA0A0A;
+  border-radius: 10px;
+  border: 2px black solid;
+`;
+
+const StyledKhosnphmspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledPhnhispan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled234span = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled100span = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle242 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 407px;
+  top: 2321px;
+  position: absolute;
+  border-radius: 20px;
+`;
+
+const StyledRectangle243 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 1067px;
+  top: 2321px;
+  position: absolute;
+  border-radius: 20px;
+`;
+
+const StyledRectangle250 = styled.div`
+  width: 280px;
+  height: 399px;
+  left: 93px;
+  top: 2321px;
+  position: absolute;
+  background: linear-gradient(180deg, #D88868 81%, #724837 100%);
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledGi225000vnspan = styled.span`
+  color: #A10303;
+  font-size: 16px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle251 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 108px;
+  top: 2331px;
+  position: absolute;
+  border-radius: 20px;
+  border: 5px black solid;
+`;
+
+const StyledBhoaccmttrituytlinrcrspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle25 = styled.div`
+  width: 126px;
+  height: 35px;
+  left: 170px;
+  top: 2565px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle26 = styled.div`
+  width: 280px;
+  height: 399px;
+  left: 407px;
+  top: 2321px;
+  position: absolute;
+  background: linear-gradient(180deg, #D88868 81%, #724837 100%);
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle13 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 422px;
+  top: 2331px;
+  position: absolute;
+  border-radius: 20px;
+  border: 5px black solid;
+`;
+
+const StyledRectangle27 = styled.div`
+  width: 126px;
+  height: 35px;
+  left: 484px;
+  top: 2565px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledHoahngtrngtuytspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGi455999vnspan = styled.span`
+  color: #A10303;
+  font-size: 16px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle28 = styled.div`
+  width: 280px;
+  height: 399px;
+  left: 742px;
+  top: 2321px;
+  position: absolute;
+  background: linear-gradient(180deg, #D88868 81%, #724837 100%);
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledBhoahnglngmnkiuphpspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle252 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 757px;
+  top: 2331px;
+  position: absolute;
+  border-radius: 20px;
+  border: 5px black solid;
+`;
+
+const StyledRectangle29 = styled.div`
+  width: 126px;
+  height: 35px;
+  left: 819px;
+  top: 2565px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledGi550000vnspan = styled.span`
+  color: #A10303;
+  font-size: 16px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle30 = styled.div`
+  width: 280px;
+  height: 399px;
+  left: 1067px;
+  top: 2321px;
+  position: absolute;
+  background: linear-gradient(180deg, #D88868 81%, #724837 100%);
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle297 = styled.div`
+  width: 250px;
+  height: 293px;
+  left: 1082px;
+  top: 2331px;
+  position: absolute;
+  border-radius: 20px;
+  border: 5px black solid;
+`;
+
+const StyledBhngxinhtidudngspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledGi485555vnspan = styled.span`
+  color: #A10303;
+  font-size: 16px;
+  font-family: Lemon;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle254 = styled.div`
+  width: 126px;
+  height: 35px;
+  left: 1144px;
+  top: 2565px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle298 = styled.div`
+  width: 315px;
+  height: 72px;
+  left: 93px;
+  top: 2209px;
+  position: absolute;
+  background: #8A2929;
+  border-radius: 5px;
+  border: 2px black solid;
+`;
+
+const StyledSnphmlinquanspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Kosugi Maru;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle299 = styled.div`
+  width: 351px;
+  height: 43px;
+  left: 22px;
+  top: 1482px;
+  position: absolute;
+  background: #5B1F1F;
+  border-radius: 20px;
+  border: 2px black solid;
+`;
+
+const StyledNhgisnphmspan = styled.span`
+  color: #F9EDBD;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle300 = styled.div`
+  width: 656px;
+  height: 275px;
+  left: 22px;
+  top: 1550px;
+  position: absolute;
+  background: #F5C0BA;
+  border-radius: 10px;
+  border: 2px black solid;
+`;
+
+const StyledRectangle301 = styled.div`
+  width: 503px;
+  height: 18px;
+  left: 125px;
+  top: 1580px;
+  position: absolute;
+  background: linear-gradient(270deg, white 0%, #E55B17 34%);
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle302 = styled.div`
+  width: 503px;
+  height: 18px;
+  left: 124px;
+  top: 1630px;
+  position: absolute;
+  background: linear-gradient(270deg, white 0%, #E55B17 48%);
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle303 = styled.div`
+  width: 503px;
+  height: 18px;
+  left: 125px;
+  top: 1680px;
+  position: absolute;
+  background: linear-gradient(90deg, #E55B17 17%, white 100%);
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle304 = styled.div`
+  width: 503px;
+  height: 18px;
+  left: 125px;
+  top: 1730px;
+  position: absolute;
+  background: linear-gradient(270deg, white 46%, #E55B17 100%);
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledRectangle305 = styled.div`
+  width: 503px;
+  height: 18px;
+  left: 125px;
+  top: 1780px;
+  position: absolute;
+  background: linear-gradient(270deg, white 81%, #E55B17 100%);
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const Styled5span = styled.span`
+  color: #A72A21;
+  font-size: 36px;
+  font-family: Monofett;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled4span = styled.span`
+  color: #A72A21;
+  font-size: 36px;
+  font-family: Monofett;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled3span = styled.span`
+  color: #A72A21;
+  font-size: 36px;
+  font-family: Monofett;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled2span = styled.span`
+  color: #A72A21;
+  font-size: 36px;
+  font-family: Monofett;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const Styled1span = styled.span`
+  color: #A72A21;
+  font-size: 36px;
+  font-family: Monofett;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle306 = styled.div`
+  width: 343px;
+  height: 47px;
+  left: 22px;
+  top: 1839px;
+  position: absolute;
+  background: #D9D9D9;
+  border-radius: 15px;
+  border: 2px black solid;
+`;
+
+const StyledBnhlunnhgispan = styled.span`
+  color: black;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle308 = styled.div`
+  width: 1276px;
+  height: 255px;
+  left: 19px;
+  top: 1918px;
+  position: absolute;
+  background: #D28F8F;
+  border-radius: 15px;
+  border: 2px black solid;
+`;
+
+const StyledMnhthtsrtntngvichtlngcasnphmhoangaytlcmhpcmgicutinlstinhtvchmchttrongtngchitithoacgicnthnkthpmuschihavtrngsangtrnghnchnhminhhamihngnhnhngnhnglurtlumanglicmgicdchusutcngyiumnhthchnhtlhoatirtlusau45ngyvngicformvmuscpnhmidchvgiaohngcngrtchuynnghipnggivnhnvinnhittnhythtsllachntuytvilmqutnghoctrangtrkhnggiansngmnhhontonhilngvchcchnstiptcnghtrongthigiantispan = styled.span`
+  color: black;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledNguynvna1gitrcspan = styled.span`
+  color: black;
+  font-size: 24px;
+  font-family: Konkhmer Sleokchher;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledEllipse28 = styled.div`
+  width: 50px;
+  height: 50px;
+  left: 26px;
+  top: 1925px;
+  position: absolute;
+  background: #B40505;
+  border-radius: 9999px;
+`;
+
+const StyledXemthmspan = styled.span`
+  color: black;
+  font-size: 40px;
+  font-family: Lohit Bengali;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle99 = styled.div`
+  width: 1440px;
+  height: 616px;
+  left: 0px;
+  top: 2796px;
+  position: absolute;
+  background: #0E0D0D;
+`;
+
+const StyledEllipse13 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 924px;
+  top: 3211px;
+  position: absolute;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse14 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 1100px;
+  top: 3211px;
+  position: absolute;
+  border-radius: 9999px;
+`;
+
+const StyledEllipse15 = styled.div`
+  width: 80px;
+  height: 80px;
+  left: 1250px;
+  top: 3211px;
+  position: absolute;
+  border-radius: 9999px;
+  border: 1px black solid;
+`;
+
+const StyledChnhnhtrctipcashopspan = styled.span`
+  color: white;
+  font-size: 48px;
+  font-family: Koulen;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledS12ng12nguynvntritpvinhqun8nguyndutphcmqunngatphnis32ng8nguyntrinngspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledNgnhpngkqunlnhngthngtincnhncuhithnggpimtkhukhiunitrhngspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledHoline03046377370263733937emailkingofflowergmailcomspan = styled.span`
+  color: white;
+  font-size: 36px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage4 = styled.img`
+  width: 184px;
+  height: 69px;
+  left: 64px;
+  top: 3151px;
+  position: absolute;
+  border-radius: 15px;
+`;
+
+const StyledImage5 = styled.img`
+  width: 193px;
+  height: 69px;
+  left: 305px;
+  top: 3156px;
+  position: absolute;
+  border-radius: 20px;
+`;
+
+const StyledAppkingofflowerspan = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledImage6 = styled.img`
+  width: 227px;
+  height: 70px;
+  left: 64px;
+  top: 3282px;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledImage7 = styled.img`
+  width: 228px;
+  height: 71px;
+  left: 315px;
+  top: 3282px;
+  position: absolute;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledTikhondchvspan = styled.span`
+  color: white;
+  font-size: 48px;
+  font-family: Koulen;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle100 = styled.div`
+  width: 556px;
+  height: 43px;
+  left: 834px;
+  top: 3146px;
+  position: absolute;
+  background: #807858;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledCcnntngcachngtispan = styled.span`
+  color: white;
+  font-size: 32px;
+  font-family: Kotta One;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle309 = styled.div`
+  width: 451px;
+  height: 76px;
+  left: 757px;
+  top: 1244px;
+  position: absolute;
+  background: #76DB94;
+  border-radius: 20px;
+  border: 2px black solid;
+`;
+
+const StyledPhongcchsnphmspan = styled.span`
+  color: black;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledRectangle310 = styled.div`
+  width: 596px;
+  height: 504px;
+  left: 757px;
+  top: 1340px;
+  position: absolute;
+  background: #B69999;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 20px;
+  border: 1px black solid;
+`;
+
+const StyledDemospan = styled.span`
+  color: black;
+  font-size: 128px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledFrame84 = styled.div`
+  width: 150px;
+  height: 150px;
+  left: 45px;
+  top: 58px;
+  position: absolute;
+`;
+
+const StyledFrame92 = styled.div`
+  width: 200px;
+  height: 40px;
+  left: 1039px;
+  top: 120px;
+  position: absolute;
+`;
+
+const StyledFrame93 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledFrame85 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 217px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame86 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 389px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame87 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 561px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame88 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 733px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame89 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 905px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame90 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 1077px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame91 = styled.div`
+  width: 166px;
+  height: 36px;
+  left: 1249px;
+  top: 171px;
+  position: absolute;
+`;
+
+const StyledFrame107 = styled.div`
+  width: 60px;
+  height: 60px;
+  left: 1268px;
+  top: 103px;
+  position: absolute;
+`;
+
+const StyledDesktop10 = styled.div`
+  width: 1440px;
+  height: 3409px;
+  position: relative;
+  background: #F9EDBD;
+  overflow: hidden;
+`;
+
+export const Desktop10 = () => {
+  return (
+    <StyledDesktop10>
+      <StyledRectangle1 />
+      <StyledRectangle2 />
+      <StyledRectangle3 />
+      <StyledCHOMNGBNNVIGIANGIANHNGCACHNGTI>CHÀO MỪNG BẠN ĐẾN VỚI GIAN GIAN HÀNG CỦA CHÚNG TÔI</StyledCHOMNGBNNVIGIANGIANHNGCACHNGTI>
+      <StyledImage1 />
+      <StyledImage2 />
+      <StyledImage3  src="https://placehold.co/700x58"/>
+      <StyledFrame84>
+        <StyledEllipse11  src="https://placehold.co/150x150"/>
+      </StyledFrame84>
+      <StyledFrame92>
+        <StyledRectangle94  src="https://placehold.co/200x40"/>
+      </StyledFrame92>
+      <StyledFrame107>
+        <StyledFrame93>
+          <StyledEllipse12  src="https://placehold.co/60x60"/>
+        </StyledFrame93>
+      </StyledFrame107>
+      <StyledKhuvcMinBcMinTrungMinNam><StyledKhuvcminbcmintrungminnamspan01>Khu vực:                           </StyledKhuvcminbcmintrungminnamspan01><StyledKhuvcminbcmintrungminnamspan02>Miền Bắc                                        </StyledKhuvcminbcmintrungminnamspan02><StyledKhuvcminbcmintrungminnamspan03>Miền Trung</StyledKhuvcminbcmintrungminnamspan03><StyledKhuvcminbcmintrungminnamspan04>                                   </StyledKhuvcminbcmintrungminnamspan04><StyledKhuvcminbcmintrungminnamspan05>Miền Nam</StyledKhuvcminbcmintrungminnamspan05></StyledKhuvcMinBcMinTrungMinNam>
+      <StyledEllipse16 />
+      <StyledEllipse17 />
+      <StyledEllipse18 />
+      <StyledRectangle273 />
+      <StyledRectangle274 />
+      <StyledFrame85>
+        <StyledRectangle279 />
+      </StyledFrame85>
+      <StyledFrame86>
+        <StyledRectangle280 />
+      </StyledFrame86>
+      <StyledFrame87>
+        <StyledRectangle281 />
+      </StyledFrame87>
+      <StyledFrame88>
+        <StyledRectangle282 />
+      </StyledFrame88>
+      <StyledFrame89>
+        <StyledRectangle283 />
+      </StyledFrame89>
+      <StyledFrame90>
+        <StyledRectangle284 />
+      </StyledFrame90>
+      <StyledFrame91>
+        <StyledRectangle286 />
+      </StyledFrame91>
+      <StyledTrangch>Trang chủ</StyledTrangch>
+      <StyledSnphm>Sản phẩm</StyledSnphm>
+      <StyledThcvt>Thực vật</StyledThcvt>
+      <StyledGiHng>Giỏ Hàng</StyledGiHng>
+      <StyledGiithiu>Giới thiệu</StyledGiithiu>
+      <StyledSkin>Sự kiện</StyledSkin>
+      <StyledUi>Ưu đãi</StyledUi>
+      <StyledRectangle289  src="https://placehold.co/714x874"/>
+      <StyledRectangle290 />
+      <StyledTnsnphmVnbnThngtinsnphmNgungcVnbnKchthcsnphmmKhilngsnphmkgGisnphmvn>Tên sản phẩm:(Văn bản).<br/><br/>Thông tin sản phẩm:      <br/>Nguồn gốc:(Văn bản).<br/><br/>Kích thước sản phẩm:....m.<br/><br/>Khối lượng sản phẩm:....kg.<br/><br/><br/><br/><br/>Giá sản phẩm:........vnđ.<br/><br/></StyledTnsnphmVnbnThngtinsnphmNgungcVnbnKchthcsnphmmKhilngsnphmkgGisnphmvn>
+      <StyledRectangle291 />
+      <StyledThmvogihng>Thêm vào giỏ hàng</StyledThmvogihng>
+      <StyledRectangle292 />
+      <StyledMuangay>Mua ngay</StyledMuangay>
+      <StyledRectangle294 />
+      <StyledRectangle295 />
+      <StyledKhosnphm>Kho sản phẩm</StyledKhosnphm>
+      <StyledPhnhi>Phản hồi</StyledPhnhi>
+      <Styled234>234</Styled234>
+      <Styled100>100%</Styled100>
+      <StyledRectangle242 />
+      <StyledRectangle243 />
+      <StyledRectangle250 />
+      <StyledGi225000vn>         Giá:225.000 vnđ</StyledGi225000vn>
+      <StyledRectangle251  src="https://placehold.co/250x293"/>
+      <StyledBhoaccmttrituytlinrcr>Bó hoa cúc mặt trời tuyết liên rực rỡ</StyledBhoaccmttrituytlinrcr>
+      <StyledRectangle25  src="https://placehold.co/126x35"/>
+      <StyledRectangle26 />
+      <StyledRectangle13  src="https://placehold.co/250x293"/>
+      <StyledRectangle27  src="https://placehold.co/126x35"/>
+      <StyledHoahngtrngtuyt>Hoa hồng trắng tuyết</StyledHoahngtrngtuyt>
+      <StyledGi455999vn>giá:455.999 vnđ</StyledGi455999vn>
+      <StyledRectangle28 />
+      <StyledBhoahnglngmnkiuphp>Bó hoa hồng lãng mãn kiểu pháp</StyledBhoahnglngmnkiuphp>
+      <StyledRectangle252  src="https://placehold.co/250x293"/>
+      <StyledRectangle29  src="https://placehold.co/126x35"/>
+      <StyledGi550000vn>giá:550.000 vnđ</StyledGi550000vn>
+      <StyledRectangle30 />
+      <StyledRectangle297  src="https://placehold.co/250x293"/>
+      <StyledBhngxinhtidudng>Bó hồng xinh tươi dịu dàng</StyledBhngxinhtidudng>
+      <StyledGi485555vn>giá 485.555 vnđ</StyledGi485555vn>
+      <StyledRectangle254  src="https://placehold.co/126x35"/>
+      <StyledRectangle298 />
+      <StyledSnphmlinquan>Sản phẩm liên quan</StyledSnphmlinquan>
+      <StyledRectangle299 />
+      <StyledNhgisnphm>Đánh giá sản phẩm </StyledNhgisnphm>
+      <StyledRectangle300 />
+      <StyledRectangle301 />
+      <StyledRectangle302 />
+      <StyledRectangle303 />
+      <StyledRectangle304 />
+      <StyledRectangle305 />
+      <Styled5>5</Styled5>
+      <Styled4>4</Styled4>
+      <Styled3>3</Styled3>
+      <Styled2>2</Styled2>
+      <Styled1>1</Styled1>
+      <StyledRectangle306 />
+      <StyledBnhlunnhgi>Bình luận đánh  giá</StyledBnhlunnhgi>
+      <StyledRectangle308 />
+      <StyledMnhthtsrtntngvichtlngcasnphmHoaNgaytlcmhpcmgicutinlstinhtvchmchttrongtngchititHoacgicnthnkthpmuschihavtrngsangtrnghnchnhminhhaMihngnhnhngnhnglurtlumanglicmgicdchusutcngyiumnhthchnhtlhoatirtlusau45ngyvngicformvmuscpnhmiDchvgiaohngcngrtchuynnghipnggivnhnvinnhittnhythtsllachntuytvilmqutnghoctrangtrkhnggiansngMnhhontonhilngvchcchnstiptcnghtrongthigianti>“Mình thật sự rất ấn tượng với chất lượng của sản phẩm Hoa. Ngay từ lúc mở hộp, cảm giác đầu tiên là sự tinh tế và chăm chút trong từng chi tiết. Hoa được gói cẩn thận, kết hợp màu sắc hài hòa và trông sang trọng hơn cả hình minh họa. Mùi hương nhẹ nhàng nhưng lưu rất lâu, mang lại cảm giác dễ chịu suốt cả ngày. Điều mình thích nhất là hoa tươi rất lâu – sau 4–5 ngày vẫn giữ được form và màu sắc đẹp như mới. Dịch vụ giao hàng cũng rất chuyên nghiệp, đúng giờ và nhân viên nhiệt tình. Đây thật sự là lựa chọn tuyệt vời để làm quà tặng hoặc trang trí không gian sống. Mình hoàn toàn hài lòng và chắc chắn sẽ tiếp tục ủng hộ trong thời gian tới.”</StyledMnhthtsrtntngvichtlngcasnphmHoaNgaytlcmhpcmgicutinlstinhtvchmchttrongtngchititHoacgicnthnkthpmuschihavtrngsangtrnghnchnhminhhaMihngnhnhngnhnglurtlumanglicmgicdchusutcngyiumnhthchnhtlhoatirtlusau45ngyvngicformvmuscpnhmiDchvgiaohngcngrtchuynnghipnggivnhnvinnhittnhythtsllachntuytvilmqutnghoctrangtrkhnggiansngMnhhontonhilngvchcchnstiptcnghtrongthigianti>
+      <StyledNguynVnA1gitrc>Nguyễn Văn A. 1 giờ trước</StyledNguynVnA1gitrc>
+      <StyledEllipse28 />
+      <StyledXemthm>Xem thêm →</StyledXemthm>
+      <StyledRectangle99 />
+      <StyledEllipse13  src="https://placehold.co/80x80"/>
+      <StyledEllipse14  src="https://placehold.co/80x80"/>
+      <StyledEllipse15  src="https://placehold.co/80x80"/>
+      <StyledChnhnhtrctipcashop>Chí nhánh trực tiếp của shop</StyledChnhnhtrctipcashop>
+      <StyledS12ng12NguynVnTriTPVinhQun8NguynDuTPHCMQunngaTPHNiS32ng8NguynTriNng>Số 12,ngõ 12,Nguyễn Văn Trỗi,TP Vinh.<br/>Quận 8,Nguyễn Du,TP HCM.<br/>Quận Đống Đa,TP Hà Nội.<br/>Số 32,ngõ 8,Nguyễn Trãi,Đà Nẵng.</StyledS12ng12NguynVnTriTPVinhQun8NguynDuTPHCMQunngaTPHNiS32ng8NguynTriNng>
+      <StyledNgnhpngkQunlnhngThngtincnhnCuhithnggpimtkhuKhiunitrhng>Đăng nhập & Đăng ký.<br/>Quản lý đơn hàng.<br/>Thông tin cá nhân.<br/>Câu hỏi thường gặp.<br/>Đổi mật khẩu.<br/>Khiếu nại trả hàng.</StyledNgnhpngkQunlnhngThngtincnhnCuhithnggpimtkhuKhiunitrhng>
+      <StyledHoline03046377370263733937Emailkingofflowergmailcom>Holine:0304637737 & 0263733937.<br/>Email:kingofflower@gmail.com.</StyledHoline03046377370263733937Emailkingofflowergmailcom>
+      <StyledImage4  src="https://placehold.co/184x69"/>
+      <StyledImage5  src="https://placehold.co/193x69"/>
+      <StyledAPPKINGOFFLOWER>APP KING OF FLOWER</StyledAPPKINGOFFLOWER>
+      <StyledImage6  src="https://placehold.co/227x70"/>
+      <StyledImage7  src="https://placehold.co/228x71"/>
+      <StyledTikhondchv>Tài khoản & dịch vụ</StyledTikhondchv>
+      <StyledRectangle100 />
+      <StyledCcnntngcachngti>các nền tảng của chúng tôi</StyledCcnntngcachngti>
+      <StyledRectangle309 />
+      <StyledPhongcchsnphm>Phong cách sản phẩm</StyledPhongcchsnphm>
+      <StyledRectangle310 />
+      <StyledDEMO>DEMO</StyledDEMO>
+    </StyledDesktop10>
+  );
+};
